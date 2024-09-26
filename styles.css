@@ -1,0 +1,85 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+p {
+    font-size:23px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #5c452d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(122, 146, 68, 2);
+}
+
+.text-title, .image-text, .imagebg-text {
+    background-color: #e1dfb6;
+    padding: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 8px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+.image-text {
+    background-color: #e1dfb6;
+}
+
+.imagebg-text {
+    background-image: url('swamp.png');
+    background-size: cover;
+    background-position:center;
+    background-color: rgba(255, 255, 255, 0.5); /* subtle overlay */
+    background-blend-mode: overlay;
+}
+
+.imagebg-text2 {
+    background-image: url('hero.png');
+    background-size: cover;
+    background-position:center;
+    background-color: rgba(255, 255, 255, 0.5); /* subtle overlay */
+    background-blend-mode: overlay;
+}
+
+footer {
+    background-color: #5c452d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: #00f;
+}
